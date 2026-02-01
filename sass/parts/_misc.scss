@@ -140,6 +140,11 @@ time {
 
 }
 
+li::marker {
+  color: var(--primary-color);
+}
+
+
 // change the line-through color
 del {
   text-decoration-color: var(--primary-color);
