@@ -17,10 +17,10 @@
 :root {
   /* Fonts */
   --font-size-base: 16px;
-  --mono-text-font: "Jetbrains Mono";
-  --text-font: "ZedTextFtl";
-  --header-font: "ZedDisplayFtl" "Space Grotesk", "Helvetica", sans-serif;
-  --code-font: "Jetbrains Mono";
+  --mono-text-font: "Jetbrains Mono", monospace;
+  --text-font: "ZedTextFtl", sans-serif;
+  --header-font: "ZedDisplayFtl", "Space Grotesk", "Helvetica", sans-serif;
+  --code-font: "Jetbrains Mono", monospace;
 
   --line-height: 1.5;
   --page-width: 920px;

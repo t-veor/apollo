@@ -7,6 +7,8 @@ $text-1: darken($bg-0, 60%);
 $text-2: darken($bg-0, 30%);
 
 :root.light {
+  color-scheme: light;
+
   --text-0: #{$text-0};
   --text-1: #{$text-1};
   --text-2: #{$text-2};
@@ -17,8 +19,8 @@ $text-2: darken($bg-0, 30%);
 
   --border-color: var(--bg-2);
 
-  --primary-color: #ef5350;
-  --hover-color: white;
+  --primary-color: #00a6f4;
+  --hover-color: black;
 
   --icon-filter: none;
 }
