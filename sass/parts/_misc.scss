@@ -23,14 +23,16 @@
 }
 
 hr {
-  color: var(--border-color);
-  background: none;
+  background: var(--border-color);
+  height: 2px;
+  border: 0;
   margin: 1.2rem auto;
 }
 
 blockquote {
   border-left: 3px solid var(--primary-color);
-  color: #737373;
+
+  color: var(--text-2);
   margin: 0;
   padding-left: 1em;
 }
@@ -149,4 +151,8 @@ del {
 .MathJax_SVG_Display {
   overflow-x: auto;
   overflow-y: hidden;
+}
+
+:target {
+  scroll-margin-block-start: 4vh;
 }

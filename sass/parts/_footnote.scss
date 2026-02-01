@@ -1,0 +1,17 @@
+.footnotes {
+  color: var(--text-2);
+  font-size: 0.75rem;
+
+  :target {
+    background: var(--bg-1);
+    color: var(--text-0);
+  }
+
+  &::before {
+    display: block;
+    background: var(--border-color);
+    height: 2px;
+    content: " ";
+    margin: 1.2em auto;
+  }
+}

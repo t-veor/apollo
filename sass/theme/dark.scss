@@ -24,6 +24,12 @@ $text-2: lighten($bg-0, 40%);
   --primary-color: #00a6f4;
   --hover-color: black;
 
+  --red-fg: #fb2c36;
+  --green-fg: #00c950;
+  --blue-fg: #00a6f4;
+  --purple-fg: #ad46ff;
+  --yellow-fg: #f0b100;
+
   --icon-filter: invert(1);
 
   .social > img, .search-button > img {
