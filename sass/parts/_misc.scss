@@ -77,9 +77,10 @@ main {
   // Disable colored links in:
   // - .meta
   // - header (socials, theme toggle)
+  // - footer
   // - /talks
   // - /projects
-  .meta a, .talks-grid a, .cards a {
+  .meta a, .talks-grid a, .cards a, footer a {
     border-bottom: none;
   }
 

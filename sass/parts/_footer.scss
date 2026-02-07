@@ -1,0 +1,17 @@
+footer {
+  color: var(--text-2);
+
+  &::before {
+    display: block;
+    background: var(--border-color);
+    height: 2px;
+    content: " ";
+    margin: 1.2em auto;
+  }
+
+  .post-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
