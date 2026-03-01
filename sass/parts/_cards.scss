@@ -1,5 +1,5 @@
 .cards {
-  column-count: 2;
+  column-count: var(--columns);
   column-gap: 20px;
   padding: 12px 0;
 
