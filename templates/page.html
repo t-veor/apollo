@@ -107,7 +107,7 @@
 
 {% block right_content %}
     {# Optional table of contents #}
-    {% if config.extra.toc | default(value=false) and page.toc %}
+    {% if config.extra.toc | default(value=false) and page.extra.toc | default(value=true) and page.toc %}
         {% include "partials/toc.html" %}
     {% endif %}
 {% endblock right_content %}
