@@ -11,10 +11,18 @@
 {% set loading = loading | default(value='lazy') %}
 {% set decoding = decoding | default(value='async') %}
 {% set style = style | default(value='') %}
-<img aspect-ratio="{{ width }} / {{ height }}"
-     src="{{ img.url }}"
-     alt="{{ alt }}"
-     style="{{ style }}"
-     loading="{{ loading }}"
-     decoding="{{ decoding }}"
-     class="{{ class | default(value='') }}" />
+
+{% set alt = body | default(value='') %}
+{% set body = body | default(value='') %}
+
+<figure>
+    <img aspect-ratio="{{ width }} / {{ height }}"
+         src="{{ img.url }}"
+         alt="{{ alt }}"
+         style="{{ style }}"
+         loading="{{ loading }}"
+         decoding="{{ decoding }}"
+         class="{{ class | default(value='') }}" />
+
+    <figcaption>{{ body | markdown(inline=true) | safe }}</figcaption>
+</figure>
