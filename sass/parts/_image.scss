@@ -1,4 +1,4 @@
-img {
+img, svg {
   display: block;
   margin: 0 auto;
   max-width: 100%;
@@ -11,7 +11,7 @@ figure {
   max-width: 100%;
 }
 
-figure img {
+figure img, figure svg {
   max-height: 500px;
 }
 
