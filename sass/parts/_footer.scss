@@ -13,5 +13,14 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    .previous {
+      flex: 1;
+      text-align: right;
+    }
+
+    .next {
+      flex: 1;
+    }
   }
 }
